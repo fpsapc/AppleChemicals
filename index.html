@@ -4,9 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
     <title>Apple Chemicals</title>
+
 </head>
 <body>
-    
+    <header class="flex">
+        <nav class="navbar flex">
+          <a class="logo flex" href="#home"><img class="logoImg" src="img/logo.jpg" alt=""></a>
+            <ul class="nav-menu flex">
+              <li class="disapear nav-item">
+                <a href="#projects" class="nav-link">Portfolio</a>
+              </li>
+              <hr class="underline hide">
+              <li class="disapear nav-item">
+                <a href="#aboutme" class="nav-link">About</a>
+              </li>
+              <hr class="underline hide">
+              <li class="disapear nav-item">
+                <a href="#getintouch" class="nav-link">Contact</a>
+              </li>
+              <hr class="underline hide">
+              <li class="disapear nav-item touch">
+                <a href="#getintouch" class="nav-link"><img class="menubtn" src="img/menu.png" alt="email" /></a>
+              </li>
+              <hr class="underline hide">
+            </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+        </nav>
+      </header>
+      <!-- main section -->
+    <main>
+        <!-- intro section -->
+        <section class="intropage 
+            flex flex-column">
+          <div class="intro flex-column">
+             <h1 class="font">"Hello! Farmers"</h1>
+              <h2 class="font">
+              CREATIVE COMMONS <br/>
+              AGRICULTURE SUMMIT <br/> 2023
+              </h2>
+              <p class="introDesc font">
+                A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.
+              </p>
+              <p class="introDate font">2023.03.16(THU) ~ 17(FRI)</p>
+              <p class="introVenue font">@Housing Colony, Hafizabad, Punjab, Pakistan</p>
+          </div>
+        </section>
+        <section>
+            <div class="mainProgram">
+                <div class="title flex flex-column">
+                    <h3 class="maintitle font">Main Programs</h3>
+                    <div class="line"></div>
+                </div>
+              <div class="allcards flex-column">
+                 <div class="card flex">
+                    <img src="./img/program_icon_01.png" alt="intro Image">
+                    <h3 class="font">Introduction</h3>
+                    <p class="font">We are here to introduce ourselves with you</p>
+                 </div>
+                 <div class="card flex">
+                    <img src="./img/program_icon_02.png" alt="Exibition Image">
+                    <h3 class="font">Exibition</h3>
+                    <p class="font">Appreciation of various field officers</p>
+                 </div>
+                 <div class="card flex">
+                    <img src="./img/program_icon_03.png" alt="Forum Image">
+                    <h3 class="font">Forum</h3>
+                    <p class="font">Have the time to share your thoughts and opinions with experts for each topic.</p>
+                 </div>
+                 <div class="card flex">
+                    <img src="./img/program_icon_04.png" alt="Workshop Image">
+                    <h3 class="font">Workshop</h3>
+                    <p class="font">Try creating your own work using open source license rather than just watching at it.</p>
+                 </div>
+                 <div class="card flex">
+                    <img src="./img/program_icon_05.png" alt="Join Network Image">
+                    <h3 class="font">Our network</h3>
+                    <p class="font">Get connected with us even after the program</p>
+                 </div>
+                 <button class="proButton font">Join Agriculture Summit 2023</button>
+                </div>
+            </div>
+        </section>
+        <!-- speakers section -->
+        <section class="speakers" id="speakers">
+            <div class="FeTitle flex flex-column">
+                <h3 class="spTitle font">Featured Speakers</h3>
+                <div class="line"></div>  
+            </div>
+            <div class="speakerCard flex">
+                <div class="checker">
+                    <img src="/img/bg1.webp" alt="SpeakerImage">
+                </div>
+                <div class="spDetail">
+                  <h3 class="spName font">Mohsin Ali</h3>
+                  <p class="spDesc font">B.Se in Agriculture from Punjab University</p>
+                  <div class="spline"></div>
+                  <p class="spStudy font">Also got a diploma in Agriculture</p>
+                </div>
+            </div>
+            <div class="speakerCard flex">
+                <div class="checker">
+                    <img src="/img/bg1.webp" alt="SpeakerImage">
+                </div>
+                <div class="spDetail">
+                  <h3 class="spName font">Mohsin Ali</h3>
+                  <p class="spDesc font">B.Se in Agriculture from Punjab University</p>
+                  <div class="spline"></div>
+                  <p class="spStudy font">Also got a diploma in Agriculture</p>
+                </div>
+            </div>
+        </section>
 </body>
+<script src="script.js"></script>
 </html>

@@ -14,28 +14,46 @@
 
 </head>
 <body>
-    <header class="d-flex">
-        <nav class="navbar d-flex">
-          <a class="logo d-flex" href="#home"><img class="logoImg" src="img/logo.jpg" alt=""></a>
+    <header class="d-flex flex-d-column">
+      <!-- top row -->
+      <nav class="topRow">
+        <ul class="nav-topRow d-flex">
+          <li class="disapear"><a href="#"><img src="/img/facebook.svg" alt="facebook Icon"></a></li>
+          <li class="disapear"><a href="#"><img src="/img/twitter.svg" alt="facebook Icon"></a></li>
+          <li class="disapear"><a href="#">English</a></li>
+          <li class="disapear"><a href="#">My Page</a></li>
+          <li class="disapear"><a href="#">Logout</a></li>
+        </ul>
+      </nav>
+      <!-- nav bar -->
+      <nav class="navbar d-flex flex-d-column">
+          <a class="logo d-flex" href="/index.html"><img class="logoImg" src="img/logo.jpg" alt="logoImg"></a>
             <ul class="nav-menu d-flex">
               <li class="disapear nav-item">
-                <a href="#projects" class="nav-link">Portfolio</a>
+                <a href="/about.html" class="redline nav-link">About</a>
+              </li>
+              <hr class="underline hide">
+              <li class=" disapear nav-item">
+                <a href="#" class="redline nav-link">Program</a>
               </li>
               <hr class="underline hide">
               <li class="disapear nav-item">
-                <a href="#aboutme" class="nav-link">About</a>
+                <a href="#" class="redline nav-link">Join</a>
+              </li>
+              <hr class="underline hide">
+              <li class=" disapear nav-item">
+                <a href="#" class="redline nav-link">Sponser</a>
               </li>
               <hr class="underline hide">
               <li class="disapear nav-item">
-                <a href="#getintouch" class="nav-link">Contact</a>
+                <a href="#" class="redline nav-link">News</a>
               </li>
               <hr class="underline hide">
-              <li class="disapear nav-item touch">
-                <a href="#getintouch" class="nav-link"><img class="menubtn" src="img/menu.png" alt="email" /></a>
+              <li class="disapear nav-item">
+                <p><a href="#" class="nav-link compaign">KC Compaign</a></p>
               </li>
-              <hr class="underline hide">
             </ul>
-            <div class="hamburger">
+            <div class="hamburger hide">
               <span class="bar"></span>
               <span class="bar"></span>
               <span class="bar"></span>
@@ -92,8 +110,9 @@
                     <h3 class="font">Our network</h3>
                     <p class="font">Get connected with us even after the program</p>
                  </div>
-                 <button class="proButton font">Join Agriculture Summit 2023</button>
+                 <button class="proButton hide font">Join Agriculture Summit 2023</button>
                 </div>
+                <h4 class="seeProgram font">SEE THE WHOLE PROGRAM</h4>
             </div>
         </section>
         <!-- speakers section -->
@@ -180,16 +199,20 @@
           <div class="pContainer d-flex">
             <div class="allPartners d-flex">
               <img src="./img/partners/BCG-Logo.png" alt="partner Image">
-              <img src="./img/partners/GTT-logo.png" alt="">
+              <img src="./img/partners/GTT-logo.png" alt="partner Image">
               <img src="./img/partners/Infineon-Logo.png" alt="partner Image">
-              <img src="./img/partners/Loreal-Logo.png" alt="partner Image"><img src="" alt="">
+              <img src="./img/partners/Loreal-Logo.png" alt="partner Image">
               <img src="./img/partners/Orano-Logo.png" alt="partner Image">
             </div>
           </div>
         </section>
         <footer id="footer" class="d-flex">
           <img id="footerImg" src="./img/logo.jpg" alt="KC logo">
-          <p class="pFooter font">@Houseing Colony Hafizabad, <br> &copy; All rights Reserved</p>
+          <div class="flex-d-column">
+          <p class="pFooter font d-flex">@Houseing Colony Hafizabad, <span class="disapear">&copy;All rights Reserved</span><br>  
+            <span class="hide">&copy;All rights Reserved</span></p>
+            <p class="disapear font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto consequatur excepturi repellat qui omnis aliquid? Doloribus quidem quis suscipit amet veritatis dolor, harum, autem, quo possimus expedita quae officia quam.</p>
+          </div>
         </footer>
       </body>
 

@@ -41,7 +41,7 @@ header {
 .logo {
   transition: all 1s ease-in-out;
   border-top: 2px solid transparent;
-  width: 100%;
+  margin: auto;
 }
 
 .logoImg {
@@ -164,7 +164,6 @@ nav ul li:hover {
   font-weight: 900;
   font-size: 3rem;
   line-height: 3rem;
-  width: 340px;
   font-style: normal;
   align-items: center;
   letter-spacing: -1.5px;
@@ -236,6 +235,7 @@ nav ul li:hover {
   padding: 1em;
   background: #272a31;
   margin: 0.3em 1em;
+  width: 327px;
   gap: 1em;
   display: grid;
   grid-template-columns: 50px 100px auto;
@@ -249,7 +249,7 @@ nav ul li:hover {
 .card > h3 {
   color: #ec5242;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 18px;
   line-height: 22px;
   width: 6em;
@@ -258,17 +258,18 @@ nav ul li:hover {
 .card > p {
   color: #fff;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 16px;
   line-height: 18px;
 }
 
 .proButton {
-  padding: 2em;
+  padding: 1.5em;
   margin: 3em;
   background-color: #ff4f38;
   color: white;
   font-size: 16px;
+  width: 75%;
 }
 
 .proButton:hover {

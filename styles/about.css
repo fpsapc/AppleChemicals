@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.font {
+  font-family: 'Lato', sans-serif;
+}
+
+/* colors */
+
+/* #272a31; dark grey
+#ec5242;    orange
+#d3d3d3; light grey */
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-d-column {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #272a31;
+  padding: 0 2rem;
+  height: 4.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  filter: drop-shadow(0 10px 4px #d3d3d3);
+}
+
+.logo {
+  transition: all 1s ease-in-out;
+  border-top: 2px solid transparent;
+  margin: auto;
+}
+
+.logoImg {
+  height: 3em;
+}
+
+.logo:hover {
+  color: floralwhite;
+  scale: 1.2;
+}
+
+.bar {
+  display: block;
+  width: 30px;
+  height: 5px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.hamburger {
+  width: 30px;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.navbar {
+  width: 100%;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.nav-menu {
+  position: fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  flex-direction: column;
+  background-color: #3e3c3c;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s;
+  z-index: 100;
+}
+
+.nav-menu.active {
+  left: 0;
+  background-color: #3c3a39;
+  height: 100%;
+  display: flex;
+  padding: 1rem 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  align-items: start;
+}
+
+div ul li {
+  list-style: none;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li:hover {
+  border: 1px solid #ff6b00;
+}
+
+/* About page */
+
+.intropage {
+  background-color: #fff;
+  margin: auto;
+  padding: 4em 1em;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: fit-content;
+  background-position: 100% 100%;
+}
+
+.intro {
+  background-color: rgba(255, 255, 255, 0.742);
+  height: fit-content;
+  justify-content: flex-start;
+  padding: 2em 0.5em;
+  text-align: center;
+  gap: 10px;
+}
+
+.intro h1 {
+  color: orangered;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.37px;
+}
+
+.intro h2 {
+  font-weight: 900;
+  font-size: 1.8rem;
+  line-height: 1.9rem;
+  font-style: normal;
+  align-items: center;
+  letter-spacing: -0.5px;
+  padding: 0 0 1.5em 0;
+  color: orangered;
+}
+
+.introDesc {
+  font-style: normal;
+  font-weight: 400;
+  color: #272a31;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 2em;
+}
+
+.introCont {
+  font-style: normal;
+  font-weight: 700;
+  color: #272a31;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.introVenue {
+  font-style: normal;
+  font-weight: 800;
+  color: #272a31;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+/* main Program section */
+
+.mainProgram {
+  background-color: #d3d3d3;
+  width: 100%;
+  height: fit-content;
+}
+
+.maintitle {
+  text-align: center;
+  color: #000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  width: 75%;
+  line-height: 28px;
+  padding: 2em 0 0.5em 0;
+}
+
+.line {
+  width: 46px;
+  height: 4px;
+  background: #ec5242;
+  margin-bottom: 2em;
+}
+
+.mainDesc {
+  text-align: center;
+  color: #272a31;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.mainImg {
+  height: 14em;
+  margin: auto;
+  padding: 2em;
+}
+
+/* Past Summit Section */
+.feTitle {
+  gap: 1em;
+}
+
+.spTitle {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 2em 0 0 0;
+}
+
+.pastLine {
+  margin: 0;
+}
+
+.pastDesc {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.pastConf {
+  width: 90%;
+  height: 10em;
+  background-image:
+    linear-gradient(rgb(249 4 0 / 38%), rgb(196 27 27 / 57%)),
+    url("../img/conf1.jpg");
+}
+
+.pastConf2 {
+  width: 90%;
+  height: 10em;
+  background-image:
+    linear-gradient(rgb(249 4 0 / 38%), rgb(196 27 27 / 57%)),
+    url("../img/conf2.jpg");
+  background-size: contain;
+  margin-bottom: 2em;
+}
+
+.pastConf > h4 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.pastConf > p {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.partner {
+  width: 100%;
+  height: fit-content;
+  background-color: #414246;
+}
+
+.pContainer {
+  height: 10em;
+  align-items: flex-start;
+}
+
+.pTitle {
+  color: #fff;
+  padding: 1.5em 0 0.5em 0;
+}
+
+.allPartners {
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.allPartners > img {
+  height: 3em;
+}
+
+#footerImg {
+  height: 5em;
+}

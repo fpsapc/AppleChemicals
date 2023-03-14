@@ -359,10 +359,185 @@ nav ul li {
 }
 
 /* tablet version */
-@media (min-width: 768px) and (max-width: 1024) {
+@media (min-width: 769px) and (max-width: 1024px) {
   header {
     padding: 0;
     height: fit-content;
+  }
+
+  .logo {
+    font-size: 16px;
+    width: 6rem;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .disapear {
+    display: block;
+  }
+
+  .navbar {
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 4rem;
+    height: 4em;
+  }
+
+  .nav-menu {
+    flex-direction: row;
+    right: 0;
+    top: 0;
+    align-items: center;
+    justify-content: end;
+    position: unset;
+    background-color: #272a31;
+  }
+
+  .nav-menu li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 3em;
+    font-weight: 400;
+    padding: 10px 1em;
+    transition: all 1s ease-in-out;
+    height: 4.5em;
+    background-color: transparent;
+  }
+
+  .redline:hover {
+    color: #ec5242;
+  }
+
+  .compaign {
+    border: 2px solid #ec5242;
+    padding: 10px;
+    margin-left: 2em;
+  }
+
+  .compaign:hover {
+    cursor: pointer;
+    background-color: #ec5242;
+  }
+
+  .topRow {
+    background-color: #ec5242;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .nav-topRow {
+    justify-content: flex-end;
+    margin-right: 10em;
+    height: 2.5em;
+    overflow: hidden;
+  }
+
+  .nav-topRow li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 2.5em;
+    transition: all 1s ease-in-out;
+    align-items: center;
+    padding: 1em;
+  }
+
+  .nav-topRow li a:hover {
+    background-color: #a11101;
+  }
+
+  /* intro section */
+  .intro {
+    padding: 8em 2em;
+  }
+
+  .intro h1 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .intro h2 {
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+    padding-bottom: 0.8em;
+  }
+
+  .introDesc {
+    font-size: 22px;
+    line-height: 36px;
+    border: 4px solid #fff;
+    width: 92%;
+    padding: 1em;
+  }
+
+  .introDate {
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 50px;
+    padding-top: 1em;
+  }
+
+  .introVenue {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .allcards {
+    align-items: flex-start;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 1.5px;
+    height: 11em;
+  }
+
+  .card > p {
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .seeProgram {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 2em;
+    height: 5em;
+  }
+
+  .speakerCard {
+    width: 25em;
+  }
+
+  .pFooter {
+    justify-content: flex-start;
+    margin-bottom: 1em;
+  }
+
+  footer {
+    padding: 5em 5em;
+    gap: 1em;
   }
 }
 
@@ -412,7 +587,7 @@ nav ul li {
     font-size: 15px;
     line-height: 3em;
     font-weight: 400;
-    padding: 10px 2em;
+    padding: 10px 1em;
     transition: all 1s ease-in-out;
     height: 4.5em;
     background-color: transparent;

@@ -28,6 +28,11 @@
   flex-direction: column;
 }
 
+.disapear {
+  display: none;
+}
+
+/* Header section */
 header {
   background-color: #272a31;
   padding: 0 2rem;
@@ -124,10 +129,6 @@ div ul li {
 
 nav ul li {
   list-style: none;
-}
-
-nav ul li:hover {
-  border: 1px solid #ff6b00;
 }
 
 /* About page */
@@ -263,6 +264,7 @@ nav ul li:hover {
   font-weight: 700;
   font-size: 12px;
   line-height: 21px;
+  padding: 0 10px;
 }
 
 .pastConf {
@@ -281,6 +283,11 @@ nav ul li:hover {
     url("../img/conf2.jpg");
   background-size: contain;
   margin-bottom: 2em;
+}
+
+.confDesk {
+  flex-direction: column;
+  gap: 1em;
 }
 
 .pastConf > h4 {
@@ -328,4 +335,362 @@ nav ul li:hover {
 
 #footerImg {
   height: 5em;
+}
+
+.pFooter {
+  flex-direction: column;
+}
+
+/* tablet version */
+@media (min-width: 769px) and (max-width: 1023px) {
+  header {
+    padding: 0;
+    height: fit-content;
+  }
+
+  .logo {
+    font-size: 16px;
+    width: 6rem;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .disapear {
+    display: block;
+  }
+
+  .navbar {
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 4rem;
+    height: 4em;
+  }
+
+  .nav-menu {
+    flex-direction: row;
+    right: 0;
+    top: 0;
+    align-items: center;
+    justify-content: end;
+    position: unset;
+    background-color: #272a31;
+  }
+
+  .nav-menu li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 3em;
+    font-weight: 400;
+    padding: 10px 1em;
+    transition: all 1s ease-in-out;
+    height: 4.5em;
+    background-color: transparent;
+  }
+
+  .redline:hover {
+    color: #ec5242;
+  }
+
+  .compaign {
+    border: 2px solid #ec5242;
+    padding: 10px;
+    margin-left: 2em;
+  }
+
+  .compaign:hover {
+    cursor: pointer;
+    background-color: #ec5242;
+  }
+
+  .topRow {
+    background-color: #ec5242;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .nav-topRow {
+    justify-content: flex-end;
+    margin-right: 10em;
+    height: 2.5em;
+    overflow: hidden;
+  }
+
+  .nav-topRow li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 2.5em;
+    transition: all 1s ease-in-out;
+    align-items: center;
+    padding: 1em;
+  }
+
+  .nav-topRow li a:hover {
+    background-color: #a11101;
+  }
+
+  /* intro page */
+  .intropage {
+    padding: 4em 4em;
+  }
+
+  .intro h2 {
+    font-weight: 999;
+    font-size: 2.3rem;
+    line-height: 3rem;
+    letter-spacing: 0.5px;
+    margin-top: 3em;
+  }
+
+  .introDesc {
+    font-size: 12px;
+    line-height: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 1.5em 3em;
+  }
+
+  .introVenue {
+    font-size: 14px;
+  }
+
+  .introCont {
+    margin-top: 2em;
+  }
+
+  /* section 2 */
+  .mainProgram {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .mainDesc {
+    width: 60%;
+    margin: auto;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .confDesk {
+    gap: 2em;
+    flex-wrap: wrap;
+  }
+
+  .pastConf {
+    margin-bottom: 2em;
+    width: 20em;
+  }
+
+  .pastConf > h4 {
+    font-size: 2em;
+    line-height: 2em;
+  }
+
+  .pastConf > p {
+    font-size: 13px;
+    line-height: 12px;
+  }
+
+  .speakers {
+    padding: 2em;
+  }
+
+  /* footer section */
+  .pFooter {
+    justify-content: flex-start;
+    margin-bottom: 1em;
+    color: #fff;
+  }
+
+  footer {
+    padding: 5em 5em;
+    gap: 1em;
+    background-color: #272a31;
+  }
+}
+
+/* desktop version */
+@media (min-width: 1024px) {
+  /* header section */
+  header {
+    padding: 0;
+    height: fit-content;
+  }
+
+  .logo {
+    font-size: 16px;
+    width: 6rem;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .disapear {
+    display: block;
+  }
+
+  .navbar {
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 4rem;
+    height: 4em;
+  }
+
+  .nav-menu {
+    flex-direction: row;
+    right: 0;
+    top: 0;
+    align-items: center;
+    justify-content: end;
+    position: unset;
+    background-color: #272a31;
+  }
+
+  .nav-menu li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 3em;
+    font-weight: 400;
+    padding: 10px 1em;
+    transition: all 1s ease-in-out;
+    height: 4.5em;
+    background-color: transparent;
+  }
+
+  .redline:hover {
+    color: #ec5242;
+  }
+
+  .compaign {
+    border: 2px solid #ec5242;
+    padding: 10px;
+    margin-left: 2em;
+  }
+
+  .compaign:hover {
+    cursor: pointer;
+    background-color: #ec5242;
+  }
+
+  .topRow {
+    background-color: #ec5242;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .nav-topRow {
+    justify-content: flex-end;
+    margin-right: 10em;
+    height: 2.5em;
+    overflow: hidden;
+  }
+
+  .nav-topRow li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 2.5em;
+    transition: all 1s ease-in-out;
+    align-items: center;
+    padding: 1em;
+  }
+
+  .nav-topRow li a:hover {
+    background-color: #a11101;
+  }
+
+  /* intro page */
+  .intropage {
+    padding: 4em 4em;
+  }
+
+  .intro h2 {
+    font-weight: 999;
+    font-size: 2.3rem;
+    line-height: 3rem;
+    letter-spacing: 0.5px;
+    margin-top: 3em;
+  }
+
+  .introDesc {
+    font-size: 12px;
+    line-height: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 1.5em 3em;
+  }
+
+  .introVenue {
+    font-size: 14px;
+  }
+
+  .introCont {
+    margin-top: 2em;
+  }
+
+  /* section 2 */
+  .mainProgram {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .mainDesc {
+    width: 60%;
+    margin: auto;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .confDesk {
+    gap: 2em;
+  }
+
+  .pastConf {
+    margin-bottom: 2em;
+    width: 20em;
+  }
+
+  .pastConf > h4 {
+    font-size: 2em;
+    line-height: 2em;
+  }
+
+  .pastConf > p {
+    font-size: 13px;
+    line-height: 12px;
+  }
+
+  .speakers {
+    padding: 2em;
+  }
+
+  /* footer section */
+  .pFooter {
+    justify-content: flex-start;
+    margin-bottom: 1em;
+    color: #fff;
+  }
+
+  footer {
+    padding: 5em 10em;
+    gap: 1em;
+    background-color: #272a31;
+  }
 }

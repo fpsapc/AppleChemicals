@@ -146,7 +146,7 @@ nav ul li:hover {
 
 .intro {
   background-color: rgba(255, 255, 255, 0.742);
-  height: 100%;
+  height: fit-content;
   justify-content: flex-start;
   padding: 6em 1em;
 }
@@ -161,15 +161,15 @@ nav ul li:hover {
 }
 
 .intro h2 {
-  font-weight: 800;
-  font-size: 28px;
-  line-height: 32px;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 3rem;
   width: 340px;
   font-style: normal;
   align-items: center;
   letter-spacing: -1.5px;
   padding: 0 0 1.5em 0;
-  background-image: url("/img/bg1.webp");
+  background-image: url("../img/bg1.webp");
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -206,7 +206,7 @@ nav ul li:hover {
 /* main Program section */
 
 .mainProgram {
-  background-image: url("/img/blackbg.avif");
+  background-image: url("../img/blackbg.avif");
   width: 100%;
   height: 57em;
 }
@@ -284,7 +284,7 @@ nav ul li:hover {
 }
 
 .checker {
-  background-image: url("/img/checkerboard.png");
+  background-image: url("../img/checkerboard.png");
   padding: 1em 0 0 1em;
   background-size: contain;
   width: 4em;

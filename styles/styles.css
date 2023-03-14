@@ -357,6 +357,9 @@ nav ul li {
 #footerImg {
   height: 5em;
 }
+.pFooter {
+  flex-direction: column;
+}
 
 /* tablet version */
 @media (min-width: 769px) and (max-width: 1024px) {

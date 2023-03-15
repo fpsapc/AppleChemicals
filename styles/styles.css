@@ -129,6 +129,24 @@ div ul li {
 nav ul li {
   list-style: none;
 }
+.nav-menu.active li > a {
+  color: #fff5e1;
+  font-family: "Inter", sans-serif;
+  margin: 16px 0;
+}
+
+.nav-item {
+  margin: 16px 0;
+  padding: 0 16px;
+}
+
+.underline {
+  width: 90%;
+}
+
+.nav-menu.active .touch {
+  display: none;
+}
 
 /* intro page */
 

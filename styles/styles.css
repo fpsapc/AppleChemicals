@@ -112,7 +112,7 @@ header {
 
 .nav-menu.active {
   left: 0;
-  background-color: #3c3a39;
+  background-color: #272a31;
   height: 100%;
   display: flex;
   padding: 1rem 1rem;
@@ -129,6 +129,11 @@ div ul li {
 nav ul li {
   list-style: none;
 }
+
+.nav-menu.active .touch {
+  display: none;
+}
+
 .nav-menu.active li > a {
   color: #fff5e1;
   font-family: "Inter", sans-serif;
@@ -141,11 +146,7 @@ nav ul li {
 }
 
 .underline {
-  width: 90%;
-}
-
-.nav-menu.active .touch {
-  display: none;
+  width: 100%;
 }
 
 /* intro page */
@@ -253,7 +254,7 @@ nav ul li {
   padding: 1em;
   background: #272a31;
   margin: 0.3em 1em;
-  width: 327px;
+  width: 345px;
   gap: 1em;
   display: grid;
   grid-template-columns: 50px 100px auto;
@@ -354,8 +355,9 @@ nav ul li {
 }
 
 .pContainer {
-  height: 10em;
+  height: fit-content;
   align-items: flex-start;
+  padding: 3em;
 }
 
 .pTitle {
@@ -397,6 +399,7 @@ nav ul li {
 
   .disapear {
     display: block;
+    padding: 0 2px;
   }
 
   .navbar {
@@ -404,7 +407,7 @@ nav ul li {
     justify-content: space-between;
     flex-direction: row;
     padding: 0 4rem;
-    height: 4em;
+    height: 5em;
   }
 
   .nav-menu {
@@ -424,7 +427,7 @@ nav ul li {
     font-size: 15px;
     line-height: 3em;
     font-weight: 400;
-    padding: 10px 1em;
+    padding: 10px 10px;
     transition: all 1s ease-in-out;
     height: 4.5em;
     background-color: transparent;
@@ -453,7 +456,7 @@ nav ul li {
 
   .nav-topRow {
     justify-content: flex-end;
-    margin-right: 10em;
+    margin-right: 4em;
     height: 2.5em;
     overflow: hidden;
   }
@@ -514,11 +517,11 @@ nav ul li {
   .allcards {
     align-items: flex-start;
   }
-  
+
   .card {
     display: flex;
     flex-direction: column;
-    width: 10em;
+    width: 9em;
     justify-content: center;
     align-items: center;
     gap: 6px;
@@ -554,6 +557,7 @@ nav ul li {
   .pFooter {
     justify-content: flex-start;
     margin-bottom: 1em;
+    flex-direction: row;
   }
 
   footer {
@@ -588,7 +592,7 @@ nav ul li {
     justify-content: space-between;
     flex-direction: row;
     padding: 0 4rem;
-    height: 4em;
+    height: 5em;
   }
 
   .nav-menu {
@@ -637,7 +641,7 @@ nav ul li {
 
   .nav-topRow {
     justify-content: flex-end;
-    margin-right: 10em;
+    margin-right: 5em;
     height: 2.5em;
     overflow: hidden;
   }
@@ -734,6 +738,7 @@ nav ul li {
   .pFooter {
     justify-content: flex-start;
     margin-bottom: 1em;
+    flex-direction: row;
   }
 
   footer {

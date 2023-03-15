@@ -73,11 +73,11 @@ header {
 }
 
 .hamburger.active .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
+  transform: translateY(10px) rotate(45deg);
 }
 
 .hamburger.active .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-10px) rotate(-45deg);
 }
 
 .hamburger {
@@ -104,7 +104,7 @@ header {
   top: 70px;
   gap: 0;
   flex-direction: column;
-  background-color: #3e3c3c;
+  background-color: #272a31;
   width: 100%;
   text-align: center;
   transition: all 0.3s;
@@ -113,7 +113,7 @@ header {
 
 .nav-menu.active {
   left: 0;
-  background-color: #3c3a39;
+  background-color: #272a31;
   height: 100%;
   display: flex;
   padding: 1rem 1rem;
@@ -129,6 +129,25 @@ div ul li {
 
 nav ul li {
   list-style: none;
+}
+
+.nav-menu.active .touch {
+  display: none;
+}
+
+.nav-menu.active li > a {
+  color: #fff5e1;
+  font-family: "Inter", sans-serif;
+  margin: 16px 0;
+}
+
+.nav-item {
+  margin: 16px 0;
+  padding: 0 16px;
+}
+
+.underline {
+  width: 100%;
 }
 
 /* About page */
@@ -315,8 +334,9 @@ nav ul li {
 }
 
 .pContainer {
-  height: 10em;
+  height: fit-content;
   align-items: flex-start;
+  padding: 3em;
 }
 
 .pTitle {
@@ -359,6 +379,7 @@ nav ul li {
 
   .disapear {
     display: block;
+    padding: 0 2px;
   }
 
   .navbar {
@@ -366,7 +387,7 @@ nav ul li {
     justify-content: space-between;
     flex-direction: row;
     padding: 0 4rem;
-    height: 4em;
+    height: 5em;
   }
 
   .nav-menu {
@@ -386,7 +407,7 @@ nav ul li {
     font-size: 15px;
     line-height: 3em;
     font-weight: 400;
-    padding: 10px 1em;
+    padding: 10px 10px;
     transition: all 1s ease-in-out;
     height: 4.5em;
     background-color: transparent;
@@ -415,7 +436,7 @@ nav ul li {
 
   .nav-topRow {
     justify-content: flex-end;
-    margin-right: 10em;
+    margin-right: 4em;
     height: 2.5em;
     overflow: hidden;
   }
@@ -509,6 +530,7 @@ nav ul li {
     justify-content: flex-start;
     margin-bottom: 1em;
     color: #fff;
+    flex-direction: row;
   }
 
   footer {
@@ -544,7 +566,7 @@ nav ul li {
     justify-content: space-between;
     flex-direction: row;
     padding: 0 4rem;
-    height: 4em;
+    height: 5em;
   }
 
   .nav-menu {
@@ -593,7 +615,7 @@ nav ul li {
 
   .nav-topRow {
     justify-content: flex-end;
-    margin-right: 10em;
+    margin-right: 5em;
     height: 2.5em;
     overflow: hidden;
   }
@@ -686,6 +708,7 @@ nav ul li {
     justify-content: flex-start;
     margin-bottom: 1em;
     color: #fff;
+    flex-direction: row;
   }
 
   footer {

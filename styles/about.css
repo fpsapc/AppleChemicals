@@ -160,13 +160,13 @@ nav ul li {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: fit-content;
+  height: auto;
   background-position: 100% 100%;
 }
 
 .intro {
   background-color: rgba(255, 255, 255, 0.742);
-  height: fit-content;
+  height: auto;
   justify-content: flex-start;
   padding: 2em 0.5em;
   text-align: center;
@@ -223,7 +223,7 @@ nav ul li {
 .mainProgram {
   background-color: #d3d3d3;
   width: 100%;
-  height: fit-content;
+  height: auto;
 }
 
 .maintitle {
@@ -329,12 +329,12 @@ nav ul li {
 
 .partner {
   width: 100%;
-  height: fit-content;
+  height: auto;
   background-color: #414246;
 }
 
 .pContainer {
-  height: fit-content;
+  height: auto;
   align-items: flex-start;
   padding: 0 0 3em 0;
 }
@@ -365,7 +365,7 @@ nav ul li {
 @media (min-width: 769px) and (max-width: 1023px) {
   header {
     padding: 0;
-    height: fit-content;
+    height: auto;
   }
 
   .logo {
@@ -431,7 +431,7 @@ nav ul li {
   .topRow {
     background-color: #ec5242;
     width: 100%;
-    height: fit-content;
+    height: auto;
   }
 
   .nav-topRow {
@@ -545,7 +545,7 @@ nav ul li {
   /* header section */
   header {
     padding: 0;
-    height: fit-content;
+    height: auto;
   }
 
   .logo {
@@ -610,7 +610,7 @@ nav ul li {
   .topRow {
     background-color: #ec5242;
     width: 100%;
-    height: fit-content;
+    height: auto;
   }
 
   .nav-topRow {

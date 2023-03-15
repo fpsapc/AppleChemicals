@@ -254,7 +254,7 @@ nav ul li {
   padding: 1em;
   background: #272a31;
   margin: 0.3em 1em;
-  width: 345px;
+  width: 360px;
   gap: 1em;
   display: grid;
   grid-template-columns: 50px 100px auto;
@@ -357,7 +357,7 @@ nav ul li {
 .pContainer {
   height: fit-content;
   align-items: flex-start;
-  padding: 3em;
+  padding: 0 0 3em 0;
 }
 
 .pTitle {

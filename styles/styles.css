@@ -11,12 +11,6 @@
   font-family: 'Lato', sans-serif;
 }
 
-/* colors */
-
-/* #272a31; dark grey
-#ec5242;    orange
-#d3d3d3; light grey */
-
 .d-flex {
   display: flex;
   align-items: center;
@@ -348,6 +342,30 @@ nav ul li {
   margin-bottom: 3em;
 }
 
+.see-more-btn {
+  width: 100%;
+  align-items: center;
+}
+
+#see-more-btn {
+  width: 95%;
+  height: 4em;
+  margin: 0 auto 2em;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 27px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: 3px solid rgba(71, 70, 71, 0.1);
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+#see-more-btn:hover {
+  cursor: pointer;
+}
+
 .partner {
   width: 100%;
   height: fit-content;
@@ -377,6 +395,7 @@ nav ul li {
 #footerImg {
   height: 5em;
 }
+
 .pFooter {
   flex-direction: column;
 }

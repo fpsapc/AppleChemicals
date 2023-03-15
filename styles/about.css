@@ -264,7 +264,7 @@ nav ul li {
   gap: 1em;
 }
 
-.spTitle {
+.sumTitle {
   text-align: center;
   font-style: normal;
   font-weight: 700;
@@ -521,7 +521,7 @@ nav ul li {
     line-height: 12px;
   }
 
-  .speakers {
+  .summit {
     padding: 2em;
   }
 
@@ -699,7 +699,7 @@ nav ul li {
     line-height: 12px;
   }
 
-  .speakers {
+  .summit {
     padding: 2em;
   }
 

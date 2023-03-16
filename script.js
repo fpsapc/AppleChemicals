@@ -72,13 +72,16 @@ const allSpeakers = [
 const speakerContainer = document.getElementById('allSpeakers');
 
 allSpeakers.map((speaker) => {
-  speakerContainer.innerHTML += `
-  <div id="allSpeakers" class="d-flex"> 
-              <div id="${speaker.id}" class="speakerCard d-flex">
-                <div class="checker">
+  speakerContainer.innerHTML += ` 
+            <div id="${speaker.id} 
+                "class="speakerCard  
+                  d-flex">
+                 <div 
+                   class="checker">
                     <img src="${speaker.pic}" alt="SpeakerImage">
-                </div>
-                <div class="spDetail">
+                 </div>
+                <div  
+                 class="spDetail">
                   <h3 class="spName font">${speaker.name}</h3>
                   <p class="spDesc font">${speaker.quali}</p>
                   <div class="spline"></div>

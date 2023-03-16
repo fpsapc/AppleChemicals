@@ -34,7 +34,7 @@
 
 /* Header section */
 header {
-  background-color: #272a31;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 0 2rem;
   height: 4.5rem;
   position: fixed;
@@ -66,6 +66,7 @@ header {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #fff;
+  background-color: #272a31;
 }
 
 .hamburger.active .bar:nth-child(2) {
@@ -94,7 +95,7 @@ header {
 
 .navbar {
   width: 100%;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: row-reverse;
 }
 
@@ -104,7 +105,6 @@ header {
   top: 70px;
   gap: 0;
   flex-direction: column;
-  background-color: #272a31;
   width: 100%;
   text-align: center;
   transition: all 0.3s;
@@ -397,12 +397,11 @@ nav ul li {
     align-items: center;
     justify-content: end;
     position: unset;
-    background-color: #272a31;
   }
 
   .nav-menu li a {
     text-decoration: none;
-    color: white;
+    color: #272a31;
     font-family: "Inter", sans-serif;
     font-size: 15px;
     line-height: 3em;
@@ -425,11 +424,11 @@ nav ul li {
 
   .compaign:hover {
     cursor: pointer;
-    background-color: #ec5242;
+    color: #ec5242;
   }
 
   .topRow {
-    background-color: #ec5242;
+    background-color: #272a31;
     width: 100%;
     height: auto;
   }
@@ -576,12 +575,12 @@ nav ul li {
     align-items: center;
     justify-content: end;
     position: unset;
-    background-color: #272a31;
+    background-color: transparent;
   }
 
   .nav-menu li a {
     text-decoration: none;
-    color: white;
+    color: #272a31;
     font-family: "Inter", sans-serif;
     font-size: 15px;
     line-height: 3em;
@@ -604,11 +603,11 @@ nav ul li {
 
   .compaign:hover {
     cursor: pointer;
-    background-color: #ec5242;
+    color: #ec5242;
   }
 
   .topRow {
-    background-color: #ec5242;
+    background-color: #272a31;
     width: 100%;
     height: auto;
   }

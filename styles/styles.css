@@ -419,7 +419,7 @@ nav ul li {
   }
 
   .disapear {
-    display: flex;
+    display: block;
     padding: 0 2px;
   }
 
@@ -585,9 +585,18 @@ nav ul li {
     flex-direction: row;
   }
 
-  footer {
-    padding: 5em 5em;
+  #footer {
+    padding: 5em;
     gap: 1em;
+  }
+
+  .dFooter {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footerFont {
+    font-size: 1em;
   }
 }
 
@@ -609,7 +618,7 @@ nav ul li {
   }
 
   .disapear {
-    display: flex;
+    display: block;
   }
 
   .navbar {
@@ -773,5 +782,14 @@ nav ul li {
   footer {
     padding: 5em 10em;
     gap: 1em;
+  }
+
+  .dFooter {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footerFont {
+    font-size: 1em;
   }
 }
